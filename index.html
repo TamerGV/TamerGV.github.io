@@ -7,7 +7,7 @@
     <title>Portfolio</title>
 
     <!-- custom css file link -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <!--Font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
@@ -15,18 +15,17 @@
 <body>
     <header>
         <div class="user">
-            <img src="" alt="">
-            <h3 class="name">Merlan Gazez</h3>
+            <img src="https://assets.htmlacademy.ru/img/unknown-raccoon.v4.svg" alt="photo">
+            <h3 class="name">Мерлан Газезов</h3>
             <p class="post">HTML-Верстальщик</p>
         </div>
 
         <nav class="navbar">
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Информация</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -34,30 +33,62 @@
     <div id="menu" class="fas fa-bars"></div>
 
     <section id="home" class="home">
-        <h3>HI THERE !</h3>
-        <h1>I'm <span>Merlan</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis facere tenetur natus ipsam sunt 
-            perspiciatis minima laborum dignissimos provident, nihil omnis voluptatum sed id, exercitationem laudantium voluptatibus fugit modi excepturi!</p>
-        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+        <h3>Привет !</h3>
+        <h1>Я <span>Мерлан</span></h1>
+        <p>В свободное время занимаюсь версткой лендингов, сайтов, интернет - магазинов. Активно изучаю JavaScript и хочу повысить свои знания до Front-end разработчика!</p>
+        <a href="#about"><button class="btn">Немного о себе <i class="fas fa-user"></i></button></a>
     </section>
 
     <section class="about" id="about">
-        <h1 class="heading"><span>about</span> me</h1>
+        <h1 class="heading"><span>Немного </span> о себе</h1>
         <div class="row">
             <div class="info">
-                <h3><span>name: </span> Merlan</h3>
-                <h3><span>age: </span> 26</h3>
-                <h3><span>post: </span> Junior-Frontend</h3>
-                <h3><span>language: </span> Russian</h3>
+                <h3><span>Имя: </span> Мерлан</h3>
+                <h3><span>Возраст: </span> 26</h3>
+                <h3><span>Позиция: </span> HTML-верстальщик</h3>
+                <h3><span>Знание языков: </span> Русский</h3>
             </div>
             <div class="counter">
                 <div class="box">
                     <span>1+</span>
-                    <h3>years of experience</h3>
+                    <h3>реального опыта</h3>
                 </div>
                 <div class="box">
                     <span>20+</span>
-                    <h3>project completed</h3>
+                    <h3>готовых проектов</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"><span>Мое</span> портфолио</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://ldeco.kz/">
+                    <img src="1.jpg" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="https://liderprotrade.kz/index.php/ru/">
+                    <img src="2.jpg" alt="">
+                </a>
+            </div>
+            <div class="box"><a href="https://domzeleni.kz/">
+                <img src="3.jpg" alt="">
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1 class="heading"><span>Мои</span> контакты</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Контакты</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> <a href="mailto:nalremg@mail.ru">nalremg@mail.ru</a></h3>
+                    <h3><i class="fas fa-phone"></i> <a href="phone:+7 747 315 21 99">+7 747 315 21 99</a></h3>
                 </div>
             </div>
         </div>
@@ -67,6 +98,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
 
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
