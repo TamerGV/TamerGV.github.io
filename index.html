@@ -1,126 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- custom css file link -->
+    <link href="style.css" rel="stylesheet">
+
+    <!--Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+</head>
+<body>
     <header>
-      <nav>
-        <div class="container">
-          <ul class="menu">
-            <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
-          </ul>
+        <div class="user">
+            <img src="" alt="">
+            <h3 class="name">Merlan Gazez</h3>
+            <p class="post">HTML-Верстальщик</p>
         </div>
-      </nav>
-      <div class="subheader">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 offset-md-1 logo">
-              <a href="#"><img src="img/logo.png" alt=""></a>
-              <div class="text_logo">
-                Официальный партнер Uber в Москве
-              </div>
-            </div>
-            <div class="col-md-2 offset-md-2">
-              <div class="subheader_call">
-                Звоните нам ежедневно
-              </div>
-              <a href="tel:87473152199" class="subheader_phone"> 8 747 315 21 99</a>
-            </div>
-            <div class="col-md-2">
-              <button class="subheader_btn">заказать звонок</button>
-            </div>
-          </div>
-        </div>
-      </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="promo">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 offset-md-1">
-            <h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
-            <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
-            <div class="promo_descr">
-              Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.<br><br>
-              Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас зарабатывают от 80000- 120000 в месяц.
-            </div>
-            <button class="promo_btn">ОТПРАВИТЬ ЗАЯВКУ!</button>
-          </div>
-        </div>
-      </div>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section id="home" class="home">
+        <h3>HI THERE !</h3>
+        <h1>I'm <span>Merlan</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis facere tenetur natus ipsam sunt 
+            perspiciatis minima laborum dignissimos provident, nihil omnis voluptatum sed id, exercitationem laudantium voluptatibus fugit modi excepturi!</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
     </section>
-    <main>
-      <section class="work">
-        <div class="container">
-          <div class="preheading">
-            преимущества
-          </div>
-          <h2 class="work_heading">8 причин начать работать с нами</h2>
-          <div class="row">
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt="">
-              </div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>name: </span> Merlan</h3>
+                <h3><span>age: </span> 26</h3>
+                <h3><span>post: </span> Junior-Frontend</h3>
+                <h3><span>language: </span> Russian</h3>
             </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
+            <div class="counter">
+                <div class="box">
+                    <span>1+</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>20+</span>
+                    <h3>project completed</h3>
+                </div>
             </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-            <div class="block col-md-6">
-              <div class="img">
-                <img src="../src/img/icon.png" alt=""></div>
-              <h3>Никаких наличных, оплата происходит автоматически</h3>
-              <p>Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</p>
-            </div>
-          </div>
         </div>
-      </section>
-    </main>
+    </section>
 
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
 
-  </body>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
